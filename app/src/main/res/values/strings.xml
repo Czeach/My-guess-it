@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My_Guess_It</string>
+    <string name="play_button">PLAY</string>
+    <string name="welcome">It\'s Time To</string>
+    <string name="title">GUESS IT</string>
+    <string name="intro_text">The word is:</string>
+    <string name="got_it_button">Got It</string>
+    <string name="don_t_got_it_buttton">Don\'t Got It</string>
+    <string name="word">\"BOWLING\"</string>
+    <string name="timer">0:00</string>
+    <string name="score">Score: 2</string>
+    <string name="you_scored">You Scored</string>
+    <string name="final_score">50</string>
+    <string name="play_again_button">Play Again</string>
+</resources>

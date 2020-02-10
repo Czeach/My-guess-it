@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment2">
+    <fragment
+        android:id="@+id/gameFragment2"
+        android:name="com.example.android.my_guess_it.GameFragment"
+        android:label="GameFragment"
+        tools:layout="@layout/game_fragment">
+        <action
+            android:id="@+id/action_gameFragment2_to_scoreFragment2"
+            app:destination="@id/scoreFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/titleFragment2"
+        android:name="com.example.android.my_guess_it.TitleFragment"
+        android:label="TitleFragment"
+        tools:layout="@layout/title_fragment">
+        <action
+            android:id="@+id/action_titleFragment2_to_gameFragment2"
+            app:destination="@id/gameFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/scoreFragment2"
+        android:name="com.example.android.my_guess_it.ScoreFragment"
+        android:label="ScoreFragment"
+        tools:layout="@layout/score_fragment"/>
+</navigation>
